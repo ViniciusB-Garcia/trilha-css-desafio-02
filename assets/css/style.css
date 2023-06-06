@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    background-color: #F9F9F9;
+    position: relative;
+    width: 90rem;
+    height: 64rem;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 90rem;
+    height: 3.5rem;
+    padding: 0rem 1.5rem;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: white;
+}
+
+.menu {
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 1.5rem;
+    top: 1.1875rem;
+    cursor: pointer;
+}
+  
+.menu-bar {
+    width: 1.25rem;
+    height: .0625rem;
+    background-color: #000000;
+    margin: .3125rem 0;
+}
+
+.logo {
+    position: absolute;
+    width: 5.625rem;
+    height: 1.25rem;
+    left: 4.5rem;
+    top: 1.25rem;
+    cursor: pointer;
+}
+
+.search-box {
+    position: absolute;
+    display: inline-flex;
+    background: #FFFFFF;
+    left: 32.875rem;
+    top: .5rem;
+}
+
+.search-input {
+    height: 2.5rem;
+    width: 21.75rem;
+    font-size: 1rem;
+    border-radius: 1.25rem 0 0 1.25rem;
+    border: 1px solid #CCCCCC;
+    padding-left: .625rem;
+}
+
+.search-box button {
+    width: 3.75rem;
+    height: 2.75rem;
+    border-radius: 0 1.25rem 1.25rem 0;
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+}
+
+.icons {
+    width: 1.5rem;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 0rem;
+    gap: 1.5rem;
+    margin-left: 81.25rem;
+    cursor: pointer;
+}
+
+#avatar img {
+    width: 2.125rem;
+    height: 2.125rem;
+    border-radius: 50%;
+}
+
+.watching-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0rem;
+    gap: 1rem;
+    position: absolute;
+    width: 59.5rem;
+    height: 46.625rem;
+    left: 4.6875rem;
+    margin-top: 1rem;
+}
+
+#video {
+    width: 100%;
+    height: 33.5625rem;
+}
+
+.watching-video h1 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.4375rem;
+    margin-top: .3125rem;
+    margin-bottom: .3125rem;
+}
+
+#video-actions {
+    display: flex;
+    flex-direction: row;
+    width: 56.375rem;
+    height: 2.625rem;
+    padding: 0rem;
+}
+
+#channel-infos h2 {
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1rem;
+    margin-bottom: .125rem;
+    margin-top: .3125rem;
+    margin-left: .9375rem;
+}
+
+#channel-infos p {
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1rem;
+    margin-top: .125rem;
+    margin-left: .9375rem;
+    color: #515151;
+}
+
+#video-actions button {
+    position: absolute;
+    width: 9.9375rem;
+    height: 2.5rem;
+    left: 12.625rem;
+    margin-top: .0625rem;
+    font-size: .875rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #CC0000;
+    border-radius: .125rem;
+    border-style: none;
+}
+
+#video-actions button:hover {
+    background-color: #b30000;
+}
+
+#like {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 15rem;
+    margin-top: .5625rem;
+}
+
+#like-counter {
+    font-size: .875rem;
+    font-weight: 600;
+    margin-left: .5rem;
+    margin-top: .6875rem;
+}
+
+#deslike {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 2.5rem;
+    margin-top: .5625rem;
+}
+
+#deslike-counter {
+    font-size: .875rem;
+    font-weight: 600;
+    margin-left: .5rem;
+    margin-top: .6875rem;
+}
+
+#share {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 2.5rem;
+    margin-top: .375rem;
+}
+
+#share-text {
+    font-size: .875rem;
+    font-weight: 600;
+    margin-left: .5rem;
+    margin-top: .6875rem;
+}
+
+#download {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 2.5rem;
+    margin-top: .375rem;
+}
+
+#download-text {
+    font-size: .875rem;
+    font-weight: 600;
+    margin-left: .5rem;
+    margin-top: .6875rem;
+}
+
+.watching-video h3 {
+    font-size: .875rem;
+    font-weight: 600;
+    margin-top: .3125rem;
+    margin-bottom: .3125rem;
+}
+
+#description {
+    font-size: .875rem;
+    font-weight: 400;
+    margin-top: 0rem;
+    width: 31.875rem;
+    height: 4rem;
+    color: #515151;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 65.75rem;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.card {
+    display: flex;
+    gap: 1rem;
+}
+
+.card img {
+    width: 10rem;
+    height: 5.625rem;
+}
+
+.card-info h4 {
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1rem;
+    margin-bottom: .3125rem;
+    margin-top: 0;
+    width: 11.875rem;
+}
+
+.card-info p {
+    margin-top: 0;
+    margin-bottom: .4375rem;
+}
+
+.card-info p,
+.card-info span {
+    display: inline-block;
+    color: #515151;
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: .875rem;
+}
